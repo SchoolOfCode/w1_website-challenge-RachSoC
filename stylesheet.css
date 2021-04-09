@@ -1,20 +1,35 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background-image: url(images/mountains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header {
+  padding: 30px;
+  text-align: center;
+  background color-adjust: ;
+  color white;
+}
+.navbar {    color: rgb(0, 15, 151);
+  border-style: solid; color:  rgb(0, 15, 151);
+  text-align: center;
+  background-color: rgb(180, 230, 245);
+}
+
 
 h1 {
   color: rgb(0, 15, 151);
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   size: 30px;
 }
 
 h2 {
   color: rgb(0, 15, 151);
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: rgb(180, 230, 245)
   size: 30px;
 }
 
@@ -32,24 +47,12 @@ h2 {
   align-items: center;
 }
 
-.info list {
-  color: rgb(0, 15, 151);
-  font-family: Arial, Helvetica, sans-serif;
-  size: 20px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 li {
   color: rgb(0, 15, 151);
-  font-family: Arial, Helvetica, sans-serif;
   size: 15px;
 }
 p {
   color: rgb(0, 15, 151);
-  font-family: Arial, Helvetica, sans-serif;
   size: 15px;
   text-align: center;
 }
@@ -59,6 +62,5 @@ p {
 
 blockquote {
   color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
