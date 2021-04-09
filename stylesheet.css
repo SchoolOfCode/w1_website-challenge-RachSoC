@@ -1,17 +1,64 @@
 body {
-  background-image: url(background1.jpg) 
+  background-image: url(images/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body {background-repeat: no-repeat; background-size: cover;}
 
-h1 {color: rgb(91, 106, 243); font-family: Arial, Helvetica, sans-serif; size: 30px;}
+h1 {
+  color: rgb(0, 15, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  size: 30px;
+}
 
-img {
+h2 {
+  color: rgb(0, 15, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  size: 30px;
+}
+
+#umar1 {
   border-radius: 100px;
   display: block;
-  width: 15%;
+  width: 20%;
+  object-fit: cover;
 }
 
-.info list ul {color: rgb(91, 106, 243); font-family: Arial, Helvetica, sans-serif; size: 20px;}
-ul {color:  rgb(91, 106, 243); font-family: Arial, Helvetica, sans-serif; size: 15px;}
-p {color:  rgb(91, 106, 243); font-family: Arial, Helvetica, sans-serif; size: 15px;}
-blockquote {color: rgb(91, 106, 243); font-family: Arial, Helvetica, sans-serif; size: 15px;}
+#umar2 {
+  border-radius: 600px;
+  display: block;
+  width: 300x;
+  align-items: center;
+}
+
+.info list {
+  color: rgb(0, 15, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  color: rgb(0, 15, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  size: 15px;
+}
+p {
+  color: rgb(0, 15, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  size: 15px;
+  text-align: center;
+}
+#Quotes {
+  color: aliceblue;
+}
+
+blockquote {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
